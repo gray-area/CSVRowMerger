@@ -47,7 +47,7 @@ python MergeRow.py
 | 4  | Comment D|
 | 8  | Comment E|
 
-### Output CSV (`merged_output.csv`)
+### Output CSV (`merged.csv`)
 | H  | B                 |
 |----|------------------|
 | 1  | Comment A       |
