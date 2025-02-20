@@ -20,7 +20,17 @@ pip install pandas
 
 ## Usage
 1. **Prepare the CSV file**: Ensure your CSV file has columns for `ID` (e.g., column `H`) and `Text` (e.g., column `B`).
-2. **Modify column names if needed**: Adjust `id_col` and `text_col` in the script to match your file structure.
+2. **Modify mergerows.py**: Edit the fields shown below
+   
+```
+# Specify the correct CSV file path
+file_path = "your_file.csv"  # Ensure this is the correct path
+
+# Ensure correct column names (update if needed)
+id_col = "H"  # Change this to the actual column name for ID
+text_col = "B"  # Change this to the actual column name for text/comments
+```
+
 3. **Run the script**:
 ```bash
 python MergeRow.py
