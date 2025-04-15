@@ -7,8 +7,8 @@ file_path = "your_file.csv"  # Ensure this is the correct path
 df = pd.read_csv(file_path, encoding="utf-8")
 
 # Ensure correct column names (update if needed)
-id_col = "H"  # Change this to the actual column name for Deal ID
-text_col = "B"  # Change this to the actual column name for text/comments
+id_col = "H"  # Change this to the actual column name for ID (CustomerID, AccountID, etc...)
+text_col = "B"  # Change this to the actual column name for text/comments (Comments, Tasks, etc...)
 
 # Fill NaN values in the text column to avoid issues when merging
 df[text_col] = df[text_col].fillna("")
